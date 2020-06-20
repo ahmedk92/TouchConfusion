@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		2883C042249E170100A3232E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C041249E170100A3232E /* AppDelegate.swift */; };
 		2883C044249E170100A3232E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C043249E170100A3232E /* SceneDelegate.swift */; };
-		2883C046249E170100A3232E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C045249E170100A3232E /* ViewController.swift */; };
 		2883C049249E170100A3232E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2883C047249E170100A3232E /* Main.storyboard */; };
 		2883C04B249E170500A3232E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2883C04A249E170500A3232E /* Assets.xcassets */; };
 		2883C04E249E170500A3232E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2883C04C249E170500A3232E /* LaunchScreen.storyboard */; };
 		2883C059249E170500A3232E /* TouchConfiusionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C058249E170500A3232E /* TouchConfiusionTests.swift */; };
+		2883C06A249E17E900A3232E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C069249E17E900A3232E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 		2883C03E249E170100A3232E /* TouchConfiusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchConfiusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2883C041249E170100A3232E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2883C043249E170100A3232E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2883C045249E170100A3232E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2883C048249E170100A3232E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2883C04A249E170500A3232E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2883C04D249E170500A3232E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		2883C054249E170500A3232E /* TouchConfiusionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchConfiusionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2883C058249E170500A3232E /* TouchConfiusionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchConfiusionTests.swift; sourceTree = "<group>"; };
 		2883C05A249E170500A3232E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2883C069249E17E900A3232E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +79,13 @@
 		2883C040249E170100A3232E /* TouchConfiusion */ = {
 			isa = PBXGroup;
 			children = (
+				2883C04F249E170500A3232E /* Info.plist */,
 				2883C041249E170100A3232E /* AppDelegate.swift */,
 				2883C043249E170100A3232E /* SceneDelegate.swift */,
-				2883C045249E170100A3232E /* ViewController.swift */,
-				2883C047249E170100A3232E /* Main.storyboard */,
+				2883C069249E17E900A3232E /* ViewController.swift */,
 				2883C04A249E170500A3232E /* Assets.xcassets */,
 				2883C04C249E170500A3232E /* LaunchScreen.storyboard */,
-				2883C04F249E170500A3232E /* Info.plist */,
+				2883C047249E170100A3232E /* Main.storyboard */,
 			);
 			path = TouchConfiusion;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2883C046249E170100A3232E /* ViewController.swift in Sources */,
+				2883C06A249E17E900A3232E /* ViewController.swift in Sources */,
 				2883C042249E170100A3232E /* AppDelegate.swift in Sources */,
 				2883C044249E170100A3232E /* SceneDelegate.swift in Sources */,
 			);
