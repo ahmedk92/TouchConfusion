@@ -27,14 +27,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2883C03E249E170100A3232E /* TouchConfiusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchConfiusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2883C03E249E170100A3232E /* TouchConfusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchConfusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2883C041249E170100A3232E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2883C043249E170100A3232E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2883C048249E170100A3232E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2883C04A249E170500A3232E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2883C04D249E170500A3232E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2883C04F249E170500A3232E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2883C054249E170500A3232E /* TouchConfiusionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchConfiusionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2883C054249E170500A3232E /* TouchConfusionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchConfusionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2883C058249E170500A3232E /* TouchConfiusionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchConfiusionTests.swift; sourceTree = "<group>"; };
 		2883C05A249E170500A3232E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2883C069249E17E900A3232E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		2883C035249E170100A3232E = {
 			isa = PBXGroup;
 			children = (
-				2883C040249E170100A3232E /* TouchConfiusion */,
+				2883C040249E170100A3232E /* TouchConfusion */,
 				2883C057249E170500A3232E /* TouchConfiusionTests */,
 				2883C03F249E170100A3232E /* Products */,
 			);
@@ -70,13 +70,13 @@
 		2883C03F249E170100A3232E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2883C03E249E170100A3232E /* TouchConfiusion.app */,
-				2883C054249E170500A3232E /* TouchConfiusionTests.xctest */,
+				2883C03E249E170100A3232E /* TouchConfusion.app */,
+				2883C054249E170500A3232E /* TouchConfusionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2883C040249E170100A3232E /* TouchConfiusion */ = {
+		2883C040249E170100A3232E /* TouchConfusion */ = {
 			isa = PBXGroup;
 			children = (
 				2883C04F249E170500A3232E /* Info.plist */,
@@ -87,7 +87,7 @@
 				2883C04C249E170500A3232E /* LaunchScreen.storyboard */,
 				2883C047249E170100A3232E /* Main.storyboard */,
 			);
-			path = TouchConfiusion;
+			path = TouchConfusion;
 			sourceTree = "<group>";
 		};
 		2883C057249E170500A3232E /* TouchConfiusionTests */ = {
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2883C03D249E170100A3232E /* TouchConfiusion */ = {
+		2883C03D249E170100A3232E /* TouchConfusion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2883C05D249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfiusion" */;
+			buildConfigurationList = 2883C05D249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfusion" */;
 			buildPhases = (
 				2883C03A249E170100A3232E /* Sources */,
 				2883C03B249E170100A3232E /* Frameworks */,
@@ -114,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = TouchConfiusion;
+			name = TouchConfusion;
 			productName = TouchConfiusion;
-			productReference = 2883C03E249E170100A3232E /* TouchConfiusion.app */;
+			productReference = 2883C03E249E170100A3232E /* TouchConfusion.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2883C053249E170500A3232E /* TouchConfiusionTests */ = {
+		2883C053249E170500A3232E /* TouchConfusionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2883C060249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfiusionTests" */;
+			buildConfigurationList = 2883C060249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfusionTests" */;
 			buildPhases = (
 				2883C050249E170500A3232E /* Sources */,
 				2883C051249E170500A3232E /* Frameworks */,
@@ -132,9 +132,9 @@
 			dependencies = (
 				2883C056249E170500A3232E /* PBXTargetDependency */,
 			);
-			name = TouchConfiusionTests;
+			name = TouchConfusionTests;
 			productName = TouchConfiusionTests;
-			productReference = 2883C054249E170500A3232E /* TouchConfiusionTests.xctest */;
+			productReference = 2883C054249E170500A3232E /* TouchConfusionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2883C039249E170100A3232E /* Build configuration list for PBXProject "TouchConfiusion" */;
+			buildConfigurationList = 2883C039249E170100A3232E /* Build configuration list for PBXProject "TouchConfusion" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,8 +169,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2883C03D249E170100A3232E /* TouchConfiusion */,
-				2883C053249E170500A3232E /* TouchConfiusionTests */,
+				2883C03D249E170100A3232E /* TouchConfusion */,
+				2883C053249E170500A3232E /* TouchConfusionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,7 +219,7 @@
 /* Begin PBXTargetDependency section */
 		2883C056249E170500A3232E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2883C03D249E170100A3232E /* TouchConfiusion */;
+			target = 2883C03D249E170100A3232E /* TouchConfusion */;
 			targetProxy = 2883C055249E170500A3232E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -369,8 +369,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfiusion;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfusion;
+				PRODUCT_NAME = TouchConfusion;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -387,8 +387,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfiusion;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfusion;
+				PRODUCT_NAME = TouchConfusion;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,7 +412,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchConfiusion.app/TouchConfiusion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchConfusion.app/TouchConfusion";
 			};
 			name = Debug;
 		};
@@ -434,14 +434,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchConfiusion.app/TouchConfiusion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchConfusion.app/TouchConfusion";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2883C039249E170100A3232E /* Build configuration list for PBXProject "TouchConfiusion" */ = {
+		2883C039249E170100A3232E /* Build configuration list for PBXProject "TouchConfusion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2883C05B249E170500A3232E /* Debug */,
@@ -450,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2883C05D249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfiusion" */ = {
+		2883C05D249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfusion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2883C05E249E170500A3232E /* Debug */,
@@ -459,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2883C060249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfiusionTests" */ = {
+		2883C060249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfusionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2883C061249E170500A3232E /* Debug */,
