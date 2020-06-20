@@ -1,15 +1,15 @@
 //
-//  TouchConfiusionTests.swift
-//  TouchConfiusionTests
+//  TouchConfusionTests.swift
+//  TouchConfusionTests
 //
 //  Created by Ahmed Khalaf on 6/20/20.
 //  Copyright © 2020 io.github.ahmedkhalaf. All rights reserved.
 //
 
 import XCTest
-@testable import TouchConfiusion
+@testable import TouchConfusion
 
-class TouchConfiusionTests: XCTestCase {
+class TouchConfusionTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

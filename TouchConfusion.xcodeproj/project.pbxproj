@@ -7,48 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2883C042249E170100A3232E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C041249E170100A3232E /* AppDelegate.swift */; };
-		2883C044249E170100A3232E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C043249E170100A3232E /* SceneDelegate.swift */; };
-		2883C049249E170100A3232E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2883C047249E170100A3232E /* Main.storyboard */; };
-		2883C04B249E170500A3232E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2883C04A249E170500A3232E /* Assets.xcassets */; };
-		2883C04E249E170500A3232E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2883C04C249E170500A3232E /* LaunchScreen.storyboard */; };
-		2883C059249E170500A3232E /* TouchConfiusionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C058249E170500A3232E /* TouchConfiusionTests.swift */; };
-		2883C06A249E17E900A3232E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C069249E17E900A3232E /* ViewController.swift */; };
+		2883C0E3249E640700A3232E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C041249E170100A3232E /* AppDelegate.swift */; };
+		2883C0E4249E640A00A3232E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C043249E170100A3232E /* SceneDelegate.swift */; };
+		2883C0E5249E640D00A3232E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C069249E17E900A3232E /* ViewController.swift */; };
+		2883C0E6249E641000A3232E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2883C04A249E170500A3232E /* Assets.xcassets */; };
+		2883C0E7249E641300A3232E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2883C04C249E170500A3232E /* LaunchScreen.storyboard */; };
+		2883C0E8249E641700A3232E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2883C047249E170100A3232E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2883C055249E170500A3232E /* PBXContainerItemProxy */ = {
+		2883C0D7249E63CB00A3232E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2883C036249E170100A3232E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2883C03D249E170100A3232E;
-			remoteInfo = TouchConfiusion;
+			remoteGlobalIDString = 2883C0C0249E63C900A3232E;
+			remoteInfo = TouchConfusion;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2883C03E249E170100A3232E /* TouchConfusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchConfusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2883C041249E170100A3232E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2883C043249E170100A3232E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2883C048249E170100A3232E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2883C04A249E170500A3232E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2883C04D249E170500A3232E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2883C04F249E170500A3232E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2883C054249E170500A3232E /* TouchConfusionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchConfusionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2883C058249E170500A3232E /* TouchConfiusionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchConfiusionTests.swift; sourceTree = "<group>"; };
-		2883C05A249E170500A3232E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2883C069249E17E900A3232E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2883C0C1249E63C900A3232E /* TouchConfusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchConfusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2883C0D6249E63CB00A3232E /* TouchConfusionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchConfusionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2883C03B249E170100A3232E /* Frameworks */ = {
+		2883C0BE249E63C900A3232E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2883C051249E170500A3232E /* Frameworks */ = {
+		2883C0D3249E63CB00A3232E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				2883C040249E170100A3232E /* TouchConfusion */,
-				2883C057249E170500A3232E /* TouchConfiusionTests */,
 				2883C03F249E170100A3232E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,8 +66,8 @@
 		2883C03F249E170100A3232E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2883C03E249E170100A3232E /* TouchConfusion.app */,
-				2883C054249E170500A3232E /* TouchConfusionTests.xctest */,
+				2883C0C1249E63C900A3232E /* TouchConfusion.app */,
+				2883C0D6249E63CB00A3232E /* TouchConfusionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,51 +86,42 @@
 			path = TouchConfusion;
 			sourceTree = "<group>";
 		};
-		2883C057249E170500A3232E /* TouchConfiusionTests */ = {
-			isa = PBXGroup;
-			children = (
-				2883C058249E170500A3232E /* TouchConfiusionTests.swift */,
-				2883C05A249E170500A3232E /* Info.plist */,
-			);
-			path = TouchConfiusionTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2883C03D249E170100A3232E /* TouchConfusion */ = {
+		2883C0C0249E63C900A3232E /* TouchConfusion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2883C05D249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfusion" */;
+			buildConfigurationList = 2883C0DD249E63CB00A3232E /* Build configuration list for PBXNativeTarget "TouchConfusion" */;
 			buildPhases = (
-				2883C03A249E170100A3232E /* Sources */,
-				2883C03B249E170100A3232E /* Frameworks */,
-				2883C03C249E170100A3232E /* Resources */,
+				2883C0BD249E63C900A3232E /* Sources */,
+				2883C0BE249E63C900A3232E /* Frameworks */,
+				2883C0BF249E63C900A3232E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TouchConfusion;
-			productName = TouchConfiusion;
-			productReference = 2883C03E249E170100A3232E /* TouchConfusion.app */;
+			productName = TouchConfusion;
+			productReference = 2883C0C1249E63C900A3232E /* TouchConfusion.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2883C053249E170500A3232E /* TouchConfusionTests */ = {
+		2883C0D5249E63CB00A3232E /* TouchConfusionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2883C060249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfusionTests" */;
+			buildConfigurationList = 2883C0E0249E63CB00A3232E /* Build configuration list for PBXNativeTarget "TouchConfusionTests" */;
 			buildPhases = (
-				2883C050249E170500A3232E /* Sources */,
-				2883C051249E170500A3232E /* Frameworks */,
-				2883C052249E170500A3232E /* Resources */,
+				2883C0D2249E63CB00A3232E /* Sources */,
+				2883C0D3249E63CB00A3232E /* Frameworks */,
+				2883C0D4249E63CB00A3232E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2883C056249E170500A3232E /* PBXTargetDependency */,
+				2883C0D8249E63CB00A3232E /* PBXTargetDependency */,
 			);
 			name = TouchConfusionTests;
-			productName = TouchConfiusionTests;
-			productReference = 2883C054249E170500A3232E /* TouchConfusionTests.xctest */;
+			productName = TouchConfusionTests;
+			productReference = 2883C0D6249E63CB00A3232E /* TouchConfusionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -147,12 +134,12 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = io.github.ahmedkhalaf;
 				TargetAttributes = {
-					2883C03D249E170100A3232E = {
+					2883C0C0249E63C900A3232E = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					2883C053249E170500A3232E = {
+					2883C0D5249E63CB00A3232E = {
 						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 2883C03D249E170100A3232E;
+						TestTargetID = 2883C0C0249E63C900A3232E;
 					};
 				};
 			};
@@ -169,24 +156,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2883C03D249E170100A3232E /* TouchConfusion */,
-				2883C053249E170500A3232E /* TouchConfusionTests */,
+				2883C0C0249E63C900A3232E /* TouchConfusion */,
+				2883C0D5249E63CB00A3232E /* TouchConfusionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2883C03C249E170100A3232E /* Resources */ = {
+		2883C0BF249E63C900A3232E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2883C04E249E170500A3232E /* LaunchScreen.storyboard in Resources */,
-				2883C04B249E170500A3232E /* Assets.xcassets in Resources */,
-				2883C049249E170100A3232E /* Main.storyboard in Resources */,
+				2883C0E8249E641700A3232E /* Main.storyboard in Resources */,
+				2883C0E6249E641000A3232E /* Assets.xcassets in Resources */,
+				2883C0E7249E641300A3232E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2883C052249E170500A3232E /* Resources */ = {
+		2883C0D4249E63CB00A3232E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,31 +183,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2883C03A249E170100A3232E /* Sources */ = {
+		2883C0BD249E63C900A3232E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2883C06A249E17E900A3232E /* ViewController.swift in Sources */,
-				2883C042249E170100A3232E /* AppDelegate.swift in Sources */,
-				2883C044249E170100A3232E /* SceneDelegate.swift in Sources */,
+				2883C0E5249E640D00A3232E /* ViewController.swift in Sources */,
+				2883C0E3249E640700A3232E /* AppDelegate.swift in Sources */,
+				2883C0E4249E640A00A3232E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2883C050249E170500A3232E /* Sources */ = {
+		2883C0D2249E63CB00A3232E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2883C059249E170500A3232E /* TouchConfiusionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2883C056249E170500A3232E /* PBXTargetDependency */ = {
+		2883C0D8249E63CB00A3232E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2883C03D249E170100A3232E /* TouchConfusion */;
-			targetProxy = 2883C055249E170500A3232E /* PBXContainerItemProxy */;
+			target = 2883C0C0249E63C900A3232E /* TouchConfusion */;
+			targetProxy = 2883C0D7249E63CB00A3232E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -358,57 +344,57 @@
 			};
 			name = Release;
 		};
-		2883C05E249E170500A3232E /* Debug */ = {
+		2883C0DE249E63CB00A3232E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y699PM52F2;
-				INFOPLIST_FILE = TouchConfiusion/Info.plist;
+				INFOPLIST_FILE = TouchConfusion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfusion;
-				PRODUCT_NAME = TouchConfusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2883C05F249E170500A3232E /* Release */ = {
+		2883C0DF249E63CB00A3232E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y699PM52F2;
-				INFOPLIST_FILE = TouchConfiusion/Info.plist;
+				INFOPLIST_FILE = TouchConfusion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfusion;
-				PRODUCT_NAME = TouchConfusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		2883C061249E170500A3232E /* Debug */ = {
+		2883C0E1249E63CB00A3232E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y699PM52F2;
-				INFOPLIST_FILE = TouchConfiusionTests/Info.plist;
+				INFOPLIST_FILE = TouchConfusionTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfiusionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfusionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,21 +402,21 @@
 			};
 			name = Debug;
 		};
-		2883C062249E170500A3232E /* Release */ = {
+		2883C0E2249E63CB00A3232E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y699PM52F2;
-				INFOPLIST_FILE = TouchConfiusionTests/Info.plist;
+				INFOPLIST_FILE = TouchConfusionTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfiusionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = AK.TouchConfusionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,20 +436,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2883C05D249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfusion" */ = {
+		2883C0DD249E63CB00A3232E /* Build configuration list for PBXNativeTarget "TouchConfusion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2883C05E249E170500A3232E /* Debug */,
-				2883C05F249E170500A3232E /* Release */,
+				2883C0DE249E63CB00A3232E /* Debug */,
+				2883C0DF249E63CB00A3232E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2883C060249E170500A3232E /* Build configuration list for PBXNativeTarget "TouchConfusionTests" */ = {
+		2883C0E0249E63CB00A3232E /* Build configuration list for PBXNativeTarget "TouchConfusionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2883C061249E170500A3232E /* Debug */,
-				2883C062249E170500A3232E /* Release */,
+				2883C0E1249E63CB00A3232E /* Debug */,
+				2883C0E2249E63CB00A3232E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
